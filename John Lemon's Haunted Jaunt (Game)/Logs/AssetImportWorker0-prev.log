@@ -15,7 +15,7 @@ C:/Users/meken/Documents/Git/John-Lemon-s-Haunted-Jaunt/John Lemon's Haunted Jau
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64744
+57923
 Successfully changed project path to: C:/Users/meken/Documents/Git/John-Lemon-s-Haunted-Jaunt/John Lemon's Haunted Jaunt (Game)
 C:/Users/meken/Documents/Git/John-Lemon-s-Haunted-Jaunt/John Lemon's Haunted Jaunt (Game)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/meken/Documents/Git/John-Lemon-s-Haunted-Jaunt/John Lemon's Haunted Jau
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13368] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 649700039 [EditorId] 649700039 [Version] 1048832 [Id] WindowsEditor(7,KendallDawson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17724] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 743414075 [EditorId] 743414075 [Version] 1048832 [Id] WindowsEditor(7,KendallDawson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13368] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 649700039 [EditorId] 649700039 [Version] 1048832 [Id] WindowsEditor(7,KendallDawson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17724] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 743414075 [EditorId] 743414075 [Version] 1048832 [Id] WindowsEditor(7,KendallDawson) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 62.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 138.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,7 +67,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -77,7 +77,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005185 seconds.
+Registered in 0.292038 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -85,42 +85,42 @@ Native extension for WindowsStandalone target not found
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 167 ms
+Android Extension - Scanning For ADB Devices 210 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.636 seconds
+- Completed reload, in  4.141 seconds
 Domain Reload Profiling:
-	ReloadAssembly (636ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (4141ms)
+		BeginReloadAssembly (2313ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (516ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (1306ms)
+			LoadAssemblies (2330ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (73ms)
+			SetupTypeCache (734ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (392ms)
+			SetupLoadedEditorAssemblies (502ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (234ms)
+				InitializePlatformSupportModulesInManaged (349ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
+				RefreshPlugins (63ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002942 seconds.
+Registered in 0.712594 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -131,32 +131,32 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  3.345 seconds
 Domain Reload Profiling:
-	ReloadAssembly (689ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (3346ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (548ms)
-			LoadAssemblies (48ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (3165ms)
+			LoadAssemblies (1963ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
+			SetupTypeCache (789ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (252ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -164,13 +164,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3401 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (1.4 MB). Loaded Objects now: 3856.
-Memory consumption went from 206.9 MB to 205.5 MB.
-Total: 3.102500 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.131800 ms MarkObjects: 2.382300 ms  DeleteObjects: 0.348000 ms)
+Memory consumption went from 207.0 MB to 205.5 MB.
+Total: 3.255100 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.157400 ms MarkObjects: 2.537100 ms  DeleteObjects: 0.316500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -185,590 +185,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1238283.538184 seconds.
-  path: Assets/Vectors/Interface/icons8-language-50.png
-  artifactKey: Guid(2327ae2b3bc4d0447a8c39c6f4a2a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Interface/icons8-language-50.png using Guid(2327ae2b3bc4d0447a8c39c6f4a2a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0803a0e0a625acefa7581df754cbf112') in 0.055928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.276348 seconds.
-  path: Assets/Vectors/Interface/icons8-language-50.png
-  artifactKey: Guid(2327ae2b3bc4d0447a8c39c6f4a2a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Interface/icons8-language-50.png using Guid(2327ae2b3bc4d0447a8c39c6f4a2a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6c6140c87c11f7be4a3732a5e72c58') in 0.082450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 805.978267 seconds.
-  path: Assets/Vectors/Temporary/6342842.jpg
-  artifactKey: Guid(fa8d384428373c34faf358a3b00d089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Temporary/6342842.jpg using Guid(fa8d384428373c34faf358a3b00d089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddcec059f5879559097563eef0fdf99') in 0.029167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 372.444202 seconds.
-  path: Assets/Vectors/Temporary/5047bf496bb4ab219cdd252249e7f49c.png
-  artifactKey: Guid(fc9475b7d7710c24186b34efebba76cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Temporary/5047bf496bb4ab219cdd252249e7f49c.png using Guid(fc9475b7d7710c24186b34efebba76cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8789e6910d84917ec4ebc943e08e5083') in 0.097130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.557977 seconds.
-  path: Assets/Vectors/Temporary/12.3e4377ddbe67.png
-  artifactKey: Guid(b741685fba650c94fb1d04f8ccf9be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Temporary/12.3e4377ddbe67.png using Guid(b741685fba650c94fb1d04f8ccf9be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d66acc083342b03b26d13c9cf9144b') in 0.102741 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002879 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.699 seconds
-Domain Reload Profiling:
-	ReloadAssembly (699ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (534ms)
-			LoadAssemblies (57ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (227ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (139ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 3879.
-Memory consumption went from 206.2 MB to 204.7 MB.
-Total: 2.968700 ms (FindLiveObjects: 0.224100 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.358100 ms  DeleteObjects: 0.317500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1171.114740 seconds.
-  path: Assets/Vectors/Company/JLHJ_.png
+  Time since last request: 1420154.974223 seconds.
+  path: Assets/Vectors/Company/JLHJ_Logo_Transparent_1000x1000.png
   artifactKey: Guid(967dc76dac41da34ca807b30a2187ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Company/JLHJ_.png using Guid(967dc76dac41da34ca807b30a2187ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93e69737f4f100e8b7e7ff092b6b38e') in 0.090702 seconds 
+Start importing Assets/Vectors/Company/JLHJ_Logo_Transparent_1000x1000.png using Guid(967dc76dac41da34ca807b30a2187ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba249bed250853dc919e5cb03722332') in 0.174852 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 571.672439 seconds.
-  path: Assets/Vectors/Company/JLHJ_1000x1000.png
+  Time since last request: 15.836510 seconds.
+  path: Assets/Vectors/Company/JLHJ_Icon_Transparent_1000x1000.png
   artifactKey: Guid(967dc76dac41da34ca807b30a2187ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Company/JLHJ_1000x1000.png using Guid(967dc76dac41da34ca807b30a2187ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14ccc6f6eda05a42fae6b8e8d1d0cd1') in 0.063047 seconds 
+Start importing Assets/Vectors/Company/JLHJ_Icon_Transparent_1000x1000.png using Guid(967dc76dac41da34ca807b30a2187ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56ef18c74c864d84cc90ffda84c1f70') in 0.041421 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 255.305532 seconds.
-  path: Assets/Vectors/Company/JLHJ_Transparent_1000x1000.png
-  artifactKey: Guid(967dc76dac41da34ca807b30a2187ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Company/JLHJ_Transparent_1000x1000.png using Guid(967dc76dac41da34ca807b30a2187ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef875d18f6729f39900835df1a8b0557') in 0.059889 seconds 
+  Time since last request: 416.194288 seconds.
+  path: Assets/Vectors/Concept
+  artifactKey: Guid(4b018e64badc1234b9fd19aa18082553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vectors/Concept using Guid(4b018e64badc1234b9fd19aa18082553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9053a2641ae3c0b1596a55b4edb9e256') in 0.006987 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 266.569223 seconds.
-  path: Assets/Vectors/Company/JLHJ_Logo_Photoshop.psd
-  artifactKey: Guid(847a691549dc2ce4a985fbb40839f196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Company/JLHJ_Logo_Photoshop.psd using Guid(847a691549dc2ce4a985fbb40839f196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8ca8599cf57c1ddb44d40fd059d80') in 0.045913 seconds 
+  Time since last request: 11.936357 seconds.
+  path: Assets/Vectors/Concept/KendallDawson.jpg
+  artifactKey: Guid(a93305392529e24498554f3bd459d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vectors/Concept/KendallDawson.jpg using Guid(a93305392529e24498554f3bd459d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3571858b4b508e1646c5b20ee4d50d') in 0.014013 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.302049 seconds.
-  path: Assets/Vectors/Company/JLHJ_Icon_Photoshop.psd
-  artifactKey: Guid(847a691549dc2ce4a985fbb40839f196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Company/JLHJ_Icon_Photoshop.psd using Guid(847a691549dc2ce4a985fbb40839f196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181a68ed727af77739446f88b91d6f34') in 0.019207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.508375 seconds.
-  path: Assets/Vectors/Company/JLHJ_Logo_Photoshop.psd
-  artifactKey: Guid(0258242504b32a74299ccfcd18aa4658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vectors/Company/JLHJ_Logo_Photoshop.psd using Guid(0258242504b32a74299ccfcd18aa4658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd064b702c1a124b99e2455e226e0fd1f') in 0.018006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 222.139230 seconds.
-  path: Assets/Animations/Template/MenuTemplate[Button].controller
-  artifactKey: Guid(7c3a2be4d43671c48b97a7769d5bfded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Template/MenuTemplate[Button].controller using Guid(7c3a2be4d43671c48b97a7769d5bfded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efab7b71e8968a983d3778ca4a05f4c9') in 0.010521 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003097 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
-Domain Reload Profiling:
-	ReloadAssembly (694ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (531ms)
-			LoadAssemblies (55ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (225ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 3896.
-Memory consumption went from 206.2 MB to 204.8 MB.
-Total: 3.342800 ms (FindLiveObjects: 0.252800 ms CreateObjectMapping: 0.157500 ms MarkObjects: 2.604100 ms  DeleteObjects: 0.327700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003426 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.683 seconds
-Domain Reload Profiling:
-	ReloadAssembly (683ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (526ms)
-			LoadAssemblies (54ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (233ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 3911.
-Memory consumption went from 206.2 MB to 204.8 MB.
-Total: 3.003400 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.110900 ms MarkObjects: 2.245200 ms  DeleteObjects: 0.428900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003574 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
-Domain Reload Profiling:
-	ReloadAssembly (672ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (516ms)
-			LoadAssemblies (53ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (225ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 3926.
-Memory consumption went from 206.3 MB to 204.8 MB.
-Total: 3.394900 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.544600 ms  DeleteObjects: 0.426700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003778 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Domain Reload Profiling:
-	ReloadAssembly (677ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (520ms)
-			LoadAssemblies (54ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (225ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (137ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 3941.
-Memory consumption went from 206.3 MB to 204.9 MB.
-Total: 3.021100 ms (FindLiveObjects: 0.235700 ms CreateObjectMapping: 0.130200 ms MarkObjects: 2.337200 ms  DeleteObjects: 0.317300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003072 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
-Domain Reload Profiling:
-	ReloadAssembly (686ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (524ms)
-			LoadAssemblies (55ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (230ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 3956.
-Memory consumption went from 206.3 MB to 204.9 MB.
-Total: 3.156700 ms (FindLiveObjects: 0.243100 ms CreateObjectMapping: 0.154700 ms MarkObjects: 2.418100 ms  DeleteObjects: 0.339900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003705 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon's Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.692 seconds
-Domain Reload Profiling:
-	ReloadAssembly (693ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (534ms)
-			LoadAssemblies (52ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (166ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (243ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3352 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (1.4 MB). Loaded Objects now: 3971.
-Memory consumption went from 206.3 MB to 204.9 MB.
-Total: 3.182500 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.198300 ms MarkObjects: 2.399300 ms  DeleteObjects: 0.312600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2317.687305 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-Bold SDF.asset
-  artifactKey: Guid(fa328c1ae3ffb6b4583cf371153b0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-Bold SDF.asset using Guid(fa328c1ae3ffb6b4583cf371153b0be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c94a7a20da659bcb1b73dc8887481b9') in 0.116746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-ExtraBoldItalic SDF.asset
-  artifactKey: Guid(e4041c94a2181b243bd1912946bfbe63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-ExtraBoldItalic SDF.asset using Guid(e4041c94a2181b243bd1912946bfbe63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa00ebfc65225fe88ba8896253fc28b') in 0.035002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-Regular SDF.asset
-  artifactKey: Guid(4bd810f1cbcb0f446a8f5a31453e243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-Regular SDF.asset using Guid(4bd810f1cbcb0f446a8f5a31453e243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba16ca2cbaea1ba2cfa5d4a552ef03da') in 0.044487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-Light.ttf
-  artifactKey: Guid(9c8fd042b7bad3647aacece9e796fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-Light.ttf using Guid(9c8fd042b7bad3647aacece9e796fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afda9db6d1f5b4a747f558c8de891ff4') in 0.021717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-SemiboldItalic SDF.asset
-  artifactKey: Guid(e5fa6cba27f1b7a47838db200baa1556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-SemiboldItalic SDF.asset using Guid(e5fa6cba27f1b7a47838db200baa1556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc34ae2eaf30a00d628758c2e426cf90') in 0.022886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-BoldItalic.ttf
-  artifactKey: Guid(bede1f0d27b7fe64f97b0e40e3ab76d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-BoldItalic.ttf using Guid(bede1f0d27b7fe64f97b0e40e3ab76d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ed4ba4660a7e3e36422ec2085994ab') in 0.019302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-BoldItalic SDF.asset
-  artifactKey: Guid(b03b7a4c74cd6294ca732f49684716ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-BoldItalic SDF.asset using Guid(b03b7a4c74cd6294ca732f49684716ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5026a39373bd58dfbf2bd6c74b4d9281') in 0.028115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/Roboto-Regular.ttf
-  artifactKey: Guid(24f52a8f823a19b4fb681e93eb6dee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/Roboto-Regular.ttf using Guid(24f52a8f823a19b4fb681e93eb6dee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1184e27af33601c045093d097466e') in 0.018051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-LightItalic.ttf
-  artifactKey: Guid(9985919b04d78b04ba8451808f2bc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-LightItalic.ttf using Guid(9985919b04d78b04ba8451808f2bc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42b54a913e354668aceddba36bbd081') in 0.017905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-ExtraBold SDF.asset
-  artifactKey: Guid(ca60657c190bc8c4e89dfb3e23d76209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-ExtraBold SDF.asset using Guid(ca60657c190bc8c4e89dfb3e23d76209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5751c0ce6ea17f835fb95aab261f34b') in 0.024758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-ExtraBold.ttf
-  artifactKey: Guid(122834da39c9ff3428f57bd1a15782c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-ExtraBold.ttf using Guid(122834da39c9ff3428f57bd1a15782c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6288df2173d4ea8fd2cf28dd58df02c') in 0.023449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Packages/Modern UI Pack/Fonts/OpenSans-Regular.ttf
-  artifactKey: Guid(5997fe0be3eb5fd40810e50d6cabb652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages/Modern UI Pack/Fonts/OpenSans-Regular.ttf using Guid(5997fe0be3eb5fd40810e50d6cabb652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88fc60c3635f09bb5eb3f74549a20b0') in 0.023571 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 3.982867 seconds.
+  path: Assets/Vectors/Concept/KendallDawson.jpg
+  artifactKey: Guid(a93305392529e24498554f3bd459d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vectors/Concept/KendallDawson.jpg using Guid(a93305392529e24498554f3bd459d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebde51798000e1915eff02baf093159e') in 0.185652 seconds 

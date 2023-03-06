@@ -70,6 +70,8 @@
      <Compile Include="Assets\Plugins\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\Plugins\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Plugins\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Plugins\Utility\ScrollRectSnapVertical.cs" />
+     <Compile Include="Assets\Plugins\Utility\ScrollRectSnapHorizontal.cs" />
      <None Include="Assets\Plugins\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Plugins\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Plugins\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -804,6 +806,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{d85b6f23-5e0a-9bf1-b5a2-2285ee1c699e}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{87f6af09-694e-a927-94ea-ede20eaeba7c}</Project>
+      <Name>UniTask.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{ea5746ca-8826-a1c4-1ca6-0af873e1206f}</Project>
+      <Name>UniTask.DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{9d248a86-8e23-e2f7-be3a-c50cf4b261bb}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{75df9946-fbef-b8c1-ac69-bf61c6993cac}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
