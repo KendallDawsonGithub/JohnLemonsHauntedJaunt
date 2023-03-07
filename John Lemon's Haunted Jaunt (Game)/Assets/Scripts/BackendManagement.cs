@@ -3,13 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using Cysharp.Threading.Tasks;
-using UnityEngine.EventSystems;
+using static Chroma.Interface.Chroma;
+using Chroma.Interface;
 
 public class BackendManagement : MonoBehaviour
 {
     public Canvas Canvas;
     public Selectable Nullable;
+    #if UNITY_EDITOR
+    public Account Account = null;
+    #endif
 
     void Start()
     {
@@ -43,6 +48,17 @@ public class BackendManagement : MonoBehaviour
             Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").gameObject.SetActive(true);
             Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").transform.Find("Languages[ScrollRect]").GetComponent<ScrollRect>().content.GetChild(0).GetComponent<Button>().Select();
         });
+        Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Version[Panel]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = "Alpha Version " + Application.version;
+        UnityEngine.Events.UnityAction UnityActionAsync = UniTask.UnityAction(async() =>
+        {
+            Chroma.Interface.Chroma.Initialize();
+            IReadOnlyCollection<Account> IReadOnlyCollection = await Chroma.Interface.Chroma.Account.GetAccounts();
+            Account = IReadOnlyCollection.FirstOrDefault();
+            Texture2D Texture2D new Texture2D(0, 0);
+            Texture2D.LoadImage();
+            Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Profile[Panel]").transform.Find("Mask[Image]").transform.Find("Image[RawImage]").GetComponent<RawImage>().texture = Account.AccountPicture;
+        });
+        UnityActionAsync.Invoke();
     }
 
     void Update()
@@ -67,7 +83,7 @@ public class BackendManagement : MonoBehaviour
                 {
                     case true:
                         switch (Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.GetComponentsInChildren<Transform>().Any(
-                            x =>  x.gameObject.transform.parent == Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform
+                            x => x.gameObject.transform.parent == Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform
                             && x.gameObject.activeSelf == true) == false
                         )
                         {
@@ -77,13 +93,9 @@ public class BackendManagement : MonoBehaviour
                                 Nullable.Select();
                                 break;
                             case false:
-                                switch ()
-                                {
-                                    case true:
-                                    break;
-                                }
+                                switch (Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Credits[Panel]").gameObject.activeSelf){case true:Canvas.transform.Find("MainMenu[Panel]").transform.Find("Left[Panel]").transform.Find("Interaction[Panel]").transform.Find("Credits[Button]").GetComponent<Button>().Select();break;}
+                                switch (Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").gameObject.activeSelf){case true:Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Languages[Button]").GetComponent<Button>().Select();break;}
                                 foreach (Transform Transform in Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform) { Transform.gameObject.SetActive(false); }
-                                Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Languages[Button]").GetComponent<Button>().Select();
                                 break;
                         }
                         break;
