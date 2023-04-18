@@ -15,7 +15,8 @@ public class BackendManagement : MonoBehaviour
     public Canvas Canvas;
     public Selectable Nullable;
     public Account Account = null;
-    void Start()
+
+    void Awake()
     {
         Canvas.transform.Find("MainMenu[Panel]").transform.Find("Left[Panel]").transform.Find("Interaction[Panel]").transform.Find("Play[Button]").GetComponent<Button>().onClick.AddListener(async () =>
         {
@@ -50,16 +51,16 @@ public class BackendManagement : MonoBehaviour
             Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").gameObject.SetActive(true);
             Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").transform.Find("Languages[ScrollRect]").GetComponent<ScrollRect>().content.GetChild(1).GetComponent<Button>().Select();
         });
-        Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").transform.Find("Search[InputField]").GetComponent<Button>().onClick.AddListener(async () => 
+        Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").transform.Find("Search[InputField]").GetComponent<Button>().onClick.AddListener(async () =>
         {
-            Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").transform.Find("Search[InputField]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text =  await Chroma.Interface.Chroma.Request.KeyboardAsync(Account, 0, -277);
+            Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").transform.Find("Search[InputField]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = await Chroma.Interface.Chroma.Request.KeyboardAsync(Account, 0, -277);
         });
         foreach (Transform Transform in Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform.Find("Languages[Panel]").transform.Find("Languages[ScrollRect]").GetComponent<ScrollRect>().content.transform)
         {
             switch (Transform.gameObject.name != "Template[Button]")
             {
                 case true:
-                    Transform.GetComponent<Button>().onClick.AddListener(() => 
+                    Transform.GetComponent<Button>().onClick.AddListener(() =>
                     {
                         foreach (Transform childTransform in Canvas.transform.Find("MainMenu[Panel]").transform.Find("Overlay[Panel]").transform) { childTransform.gameObject.SetActive(false); }
                         Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Languages[Button]").GetComponent<Button>().Select();
@@ -69,22 +70,28 @@ public class BackendManagement : MonoBehaviour
         }
         Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Languages[Button]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = "English";
         Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Version[Panel]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = "Alpha Version " + Application.version;
-        UnityEngine.Events.UnityAction UnityActionAsync = UniTask.UnityAction(async () =>
+    }
+
+    async void Start()
+    {
+        await Chroma.Interface.Chroma.Initialize();
+        IReadOnlyCollection<Account> IReadOnlyCollection = await Chroma.Interface.Chroma.Account.GetAccounts();
+        Texture2D Texture2D = new Texture2D(0, 0);
+        AsyncImageLoader.LoaderSettings LoaderSettings = new AsyncImageLoader.LoaderSettings
         {
-            Chroma.Interface.Chroma.IPAddress = System.Net.IPAddress.Loopback;
-            // Chroma.Interface.Chroma.IPAddress = System.Net.IPAddress.Parse("192.168.0.110");
-            await Chroma.Interface.Chroma.Initialize();
-            IReadOnlyCollection<Account> IReadOnlyCollection = await Chroma.Interface.Chroma.Account.GetAccounts();
-            Texture2D Texture2D = new Texture2D(0, 0);
-            AsyncImageLoader.LoaderSettings LoaderSettings = AsyncImageLoader.LoaderSettings.Default;
-            Account = IReadOnlyCollection.FirstOrDefault();
-            await AsyncImageLoader.LoadImageAsync(Texture2D, Account.AccountPicture, LoaderSettings);
-            Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Profile[Panel]").transform.Find("Mask[Image]").transform.Find("Image[RawImage]").GetComponent<RawImage>().texture = Texture2D;
-            Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = Account.AccountName;
-            // await Chroma.Interface.Chroma.Account.Analytics.Trophy.SetTrophy(Account, 0);
-            // await File.WriteAllTextAsync(Account.DataPath + "/SaveData.data", "Hello This is a Test!");
-        });
-        UnityActionAsync.Invoke();
+            linear = false,
+            markNonReadable = false,
+            generateMipmap = false,
+            autoMipmapCount = false,
+            format = AsyncImageLoader.FreeImage.Format.FIF_JPEG,
+            logException = false
+        };
+        Account = IReadOnlyCollection.FirstOrDefault();
+        await AsyncImageLoader.LoadImageAsync(Texture2D, Account.AccountPicture, LoaderSettings);
+        Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Profile[Panel]").transform.Find("Mask[Image]").transform.Find("Image[RawImage]").GetComponent<RawImage>().texture = Texture2D;
+        Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = Account.AccountName;
+        _ = Chroma.Interface.Chroma.Account.Analytics.Trophy.SetTrophy(Account, 0);
+        _ = File.WriteAllTextAsync(Account.DataPath + "SaveData.data", "Hello This is a Test!");
     }
 
     void Update()

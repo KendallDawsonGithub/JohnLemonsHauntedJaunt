@@ -341,31 +341,31 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Chroma (Interface)">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Assets\Plugins\Chroma\Chroma (Interface).dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Assets\Plugins\Chroma\Chroma (Interface).dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Assets\Plugins\Chroma\Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Assets\Plugins\Chroma\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -746,106 +746,106 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Sysroot.Linux_x86_64">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
-        <HintPath>C:\Users\Kendall Dawson\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
+        <HintPath>C:\Users\meken\Documents\Git\John-Lemon-s-Haunted-Jaunt\John Lemon&apos;s Haunted Jaunt (Game)\Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
