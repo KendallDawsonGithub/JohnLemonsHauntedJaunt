@@ -24,6 +24,8 @@ public class BackendManagement : MonoBehaviour
             Canvas.transform.Find("LoadingScreen[Panel]").gameObject.SetActive(true);
             Nullable.Select();
             await SceneManager.LoadSceneAsync("MainScene");
+            await UniTask.Delay(2000);
+            _ = Chroma.Interface.Chroma.Account.Analytics.Trophy.SetTrophy(Account, 0);
         });
         Canvas.transform.Find("MainMenu[Panel]").transform.Find("Left[Panel]").transform.Find("Interaction[Panel]").transform.Find("Controls[Button]").GetComponent<Button>().onClick.AddListener(() =>
         {
@@ -90,8 +92,6 @@ public class BackendManagement : MonoBehaviour
         await AsyncImageLoader.LoadImageAsync(Texture2D, Account.AccountPicture, LoaderSettings);
         Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Profile[Panel]").transform.Find("Mask[Image]").transform.Find("Image[RawImage]").GetComponent<RawImage>().texture = Texture2D;
         Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = Account.AccountName;
-        _ = Chroma.Interface.Chroma.Account.Analytics.Trophy.SetTrophy(Account, 0);
-        _ = File.WriteAllTextAsync(Account.DataPath + "SaveData.data", "Hello This is a Test!");
     }
 
     void Update()
