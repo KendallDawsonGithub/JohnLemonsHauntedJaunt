@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using Cysharp.Threading.Tasks;
 using static Chroma.Interface.Chroma;
+using System.Net;
 
 public class BackendManagement : MonoBehaviour
 {
@@ -70,7 +71,9 @@ public class BackendManagement : MonoBehaviour
         Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Version[Panel]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = "Alpha Version " + Application.version;
         UnityEngine.Events.UnityAction UnityActionAsync = UniTask.UnityAction(async () =>
         {
-            Chroma.Interface.Chroma.Initialize();
+            Chroma.Interface.Chroma.IPAddress = System.Net.IPAddress.Loopback;
+            // Chroma.Interface.Chroma.IPAddress = System.Net.IPAddress.Parse("192.168.0.110");
+            await Chroma.Interface.Chroma.Initialize();
             IReadOnlyCollection<Account> IReadOnlyCollection = await Chroma.Interface.Chroma.Account.GetAccounts();
             Texture2D Texture2D = new Texture2D(0, 0);
             AsyncImageLoader.LoaderSettings LoaderSettings = AsyncImageLoader.LoaderSettings.Default;
@@ -78,8 +81,8 @@ public class BackendManagement : MonoBehaviour
             await AsyncImageLoader.LoadImageAsync(Texture2D, Account.AccountPicture, LoaderSettings);
             Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Profile[Panel]").transform.Find("Mask[Image]").transform.Find("Image[RawImage]").GetComponent<RawImage>().texture = Texture2D;
             Canvas.transform.Find("MainMenu[Panel]").transform.Find("Bottom[Panel]").transform.Find("Account[Panel]").transform.Find("Label[Text]").GetComponent<TextMeshProUGUI>().text = Account.AccountName;
-            await Chroma.Interface.Chroma.Account.Analytics.Trophy.SetTrophy(Account, 0);
-            await File.WriteAllTextAsync(Account.DataPath + "/SaveData.data", "Hello This is a Test!");
+            // await Chroma.Interface.Chroma.Account.Analytics.Trophy.SetTrophy(Account, 0);
+            // await File.WriteAllTextAsync(Account.DataPath + "/SaveData.data", "Hello This is a Test!");
         });
         UnityActionAsync.Invoke();
     }
