@@ -96,7 +96,7 @@ public class BackendManagement : MonoBehaviour
 
     void Update()
     {
-        switch (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton1))
+        switch (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.JoystickButton0))
         {
             case true:
                 switch (Canvas.transform.Find("TitleScreen[Panel]").gameObject.activeSelf)
@@ -109,7 +109,7 @@ public class BackendManagement : MonoBehaviour
                 }
                 break;
         }
-        switch (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.JoystickButton2))
+        switch (Input.GetKeyDown(KeyCode.Tab) || Input.GetKeyDown(KeyCode.JoystickButton1))
         {
             case true:
                 switch (Canvas.transform.Find("MainMenu[Panel]").gameObject.activeSelf)
